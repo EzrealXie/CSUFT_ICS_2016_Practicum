@@ -1120,6 +1120,7 @@ i.s3{
 	text-indent: 100%;
 	background: url("../images/arrow.png") no-repeat 0px 0px;
 }
+
 #toTopHover {
     width: 64px;
     height: 64px;
@@ -1133,6 +1134,35 @@ i.s3{
 /*-- //bottom-to-top --*/
 
 /*--responsive--*/
+@media(max-width:1920px){
+	.logo a h1 {
+		left: 100px;
+	}
+	nav.navbar.navbar-default{
+		right: 80px;
+	}
+	.slider-info h3{
+		width: 40%
+	}
+	div#simply-countdown-losange{
+		margin: 10px 500px;
+	}
+	.left-contact h6{
+		width: 33%;
+	}
+	.map input[type="submit"]{
+		margin: 10px 100px;
+	}
+	.left-contact{
+		padding-left: 155px;
+		margin: 91px auto;
+	}
+}
+
+
+
+
+
 @media(max-width:1440px){
 	.logo a h1 {
 		left: 91px;
@@ -2753,7 +2783,26 @@ i.s3{
     margin-right: 15px;
     margin-bottom: 0px;
 }
-
-
-
-/*--//responsive--*/
+.fh5co-form {
+  padding: 30px;
+  margin-top: 4em;
+  -webkit-box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+	.js .animate-box{
+		opacity: 0;
+	}
+	.fh5co-form .form-group {
+  margin-bottom: 30px;
+}
+.fh5co-form .form-group p {
+  font-size: 14px;
+  color: #9f9f9f;
+  font-weight: 300;
+}
+.fh5co-form .form-group p a {
+  color: #000000;
+}
