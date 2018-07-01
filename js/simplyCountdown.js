@@ -127,7 +127,7 @@
                 },
                 plural: true,
                 inline: false,
-                enableUtc: true,
+                enableUtc: false,
                 onEnd: function () {
                     return;
                 },
@@ -191,14 +191,14 @@
                 }
 
                 if (secondsLeft > 0) {
-                    days = parseInt(secondsLeft / 86400, 10);
+                    days = parseInt(secondsLeft / 86400);
                     secondsLeft = secondsLeft % 86400;
 
-                    hours = parseInt(secondsLeft / 3600, 10);
+                    hours = parseInt(secondsLeft / 3600);
                     secondsLeft = secondsLeft % 3600;
 
-                    minutes = parseInt(secondsLeft / 60, 10);
-                    seconds = parseInt(secondsLeft % 60, 10);
+                    minutes = parseInt(secondsLeft / 60);
+                    seconds = parseInt(secondsLeft % 60);
                 } else {
                     days = 0;
                     hours = 0;
@@ -260,7 +260,7 @@
     exports.simplyCountdown = simplyCountdown;
 }(window));
 
-/*global $, jQuery, simplyCountdown*/
+/*global jQuery, simplyCountdown*/
 if (window.jQuery) {
     (function ($, simplyCountdown) {
         'use strict';

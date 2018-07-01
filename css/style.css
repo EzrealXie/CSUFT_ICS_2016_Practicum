@@ -190,11 +190,11 @@ a.menu__link {
     float: left;
 }
 .slider-info {
-    position: absolute;
-    top: 360px;
-    z-index: 999;
-    text-align: center;
-    margin: 0px 260px;
+	position: absolute;
+	top: 360px;
+	z-index: 999;
+	text-align: center;
+	margin: 0px 400px;
 }
 .slider-info h3 {
     font-size: 44px;
@@ -288,6 +288,7 @@ a.menu__link {
 .callbacks img {
 	position: relative;
 	z-index: 1;
+	width: 100%;
 	height: auto;
 	border: 0;
 }
